@@ -1,0 +1,205 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+ .md-table1 {
+     /* width: 100%; */
+     /* border: 1px solid #000; */
+     margin-bottom: 20px;
+     border-bottom: 1px solid #000;
+}
+.md-table1 tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+ .md-table1 thead th,
+ .md-table1 tfoot th
+{
+    vertical-align: middle;
+
+    text-align: left;
+    padding: 5px 15px;
+}
+.md-table1 thead th{
+    border-bottom: 2px solid #000;
+}
+.md-table1 tfoot th{
+    border-top: 2px solid #000;
+}
+
+ .md-table1 td,  .md-table1 th {
+    padding: 15px;
+    vertical-align: top;
+    border-top: 1px solid #000;
+}
+
+
+#msr-main-div {
+    inline-size: fit-content;
+}
+
+
+#msr-main-div .msr-save-btn {
+    margin-left: 15px;
+}
+
+.msr-table select, input{
+    vertical-align:top;
+}
+
+#msr-main-div h2 {
+    margin: 15px 0px;
+}
+
+#mainform .submit {
+    display:none;
+}
+
+#msr-main-div .betrs_delete_ops_cond.betrs-small-delete,
+#msr-main-div .betrs_delete_ops_cost.betrs-small-delete
+{
+    /* display: none !important; */
+}
+
+#msr-main-div .betrs_table_import,
+#msr-main-div .betrs_table_export,
+#msr-main-div .alignright
+{
+    display: none !important;
+}
+
+#msr-main-div .betrs_add_ops,
+#msr-main-div .betrs_delete_ops
+{
+    /* background: #2271b1;
+    border-color: #2271b1;
+    color: #fff; */
+    text-decoration: none;
+    text-shadow: none;
+
+    display: inline-block;
+    text-decoration: none;
+    font-size: 13px;
+    line-height: 2.15384615;
+    min-height: 30px;
+    margin: 0;
+    padding: 0 10px;
+    cursor: pointer;
+    border-width: 1px;
+    border-style: solid;
+    -webkit-appearance: none;
+    border-radius: 3px;
+    white-space: nowrap;
+    box-sizing: border-box;
+}
+
+#msr-main-div .betrs_add_ops
+{
+    background: #444;
+    border-color: #444;
+    color: #fff;
+}
+
+
+#msr-main-div .betrs_delete_ops
+{
+    background: #aaa;
+    border-color: #aaa;
+    color: #fff;
+}
+
+#msr-main-div .add_table_condition_op,
+#msr-main-div .add_table_cost_op
+{
+    text-decoration: none;
+    margin-left: 5px;
+    top: 5px;
+}
+
+#msr-main-div .option-title {
+    padding: 8px 0 0;
+    border: 0;
+    font-size: 14px ;
+    width: 100%;
+    box-shadow: none;
+    color: #0073aa;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+
+.button-primary.success {
+    background: #28a745;
+}
+
+.md-methods-div {
+    margin: 0px;
+}
+.md-options-div {
+    margin: 15px 15px 30px 15px;
+}
+
+.md-panel {
+    background: #fff;
+    border: #000;
+    padding: 15px;
+    border: #a2a2a2 solid 1px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.md-row {
+    margin-bottom: 10px;
+    display: table;
+    width: 100%;
+}
+
+.md-col-10 {
+    width: 10%;
+    vertical-align: top;
+    display: inline-block;
+}
+
+.md-col-30 {
+    width: 30%;
+    vertical-align: top;
+    display: inline-block;
+}
+
+.md-inline {
+    display: inline-flex;
+}
+.md-form-label {
+    margin: auto;
+    width: 100px;
+}
+
+#msr-main-div .md-input {
+    width: 100%;
+    max-width: 100%;
+}
+
+
+
+#msr-main-div .toggle-row {
+    position: absolute;
+    right: 8px;
+    top: 10px;
+    display: none;
+    padding: 0;
+    width: 40px;
+    height: 40px;
+    border: none;
+    outline: 0;
+    background: 0 0;
+}
+
+.row {
+  margin:0 !important;
+}
+@media only screen and (min-width: 992px) {
+
+
+}
